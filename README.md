@@ -1,0 +1,1 @@
+# vite6-react-tailwind-ts-template
