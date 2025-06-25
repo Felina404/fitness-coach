@@ -2,28 +2,13 @@
 
 
 @theme {
-    --color-primary:           #328E6E;
-    --color-secondary:         #67AE6E;
-
-    --color-bg:                #eeecec;
-    --color-fg:                #2b2b2b;
-
-    --color-muted:             #a3a3a3;
-    --color-accent:            #90C67C;
-    --color-border:            #E1EEBC;
-
-    --color-success:           #16a34a;
-    --color-warning:           #f59e0b;
-    --color-error:             #dc2626;
+    --color-bg: #FAF9F8;
+    --color-accent: #FF6B6B;
+    --color-secondary:  #7F3D7E;
+    --color-textDark: #2E2E2E;
+    --color-textLight:  #6E6E6E;
+    --color-hover:  #E85C5C;
+    --color-cards:  #F1F1F1;
 }
 
-
-
- :where(.dark, .dark *) {
-  --color-bg:                #2b2929;
-  --color-fg:                #f0efef;
-  --color-muted:             #67AE6E;
-
-} 
-@custom-variant dark (&:where(.dark, .dark *));
 
