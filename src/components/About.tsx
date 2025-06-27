@@ -3,7 +3,9 @@ import aboutImage from '../assets/aboutImage.webp';
 
 function About () {
     return (
-        <div id="about" className='bg-bg m-2 p-2 flex flex-col gap-4 items-center justify-center md:flex-row'>
+        <div>
+            <h1 className='text-center font-bold text-[clamp(1.5rem,3vw,2rem)] text-textDark m-4 p-4 '>About Me</h1>
+            <div id="about" className='font-inter bg-bg m-2 p-2 flex flex-col gap-4 items-center justify-center md:flex-row'>
             <div className='flex justify-center'>
                  <img src={aboutImage} alt='MayaPhoto' className='max-w-[80%] lg:max-w-[50%]  rounded-md shadow-md'/>
             </div>
@@ -24,6 +26,9 @@ function About () {
             </div>
             
         </div>
+            
+        </div>
+        
     )
 }
 
