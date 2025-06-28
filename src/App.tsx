@@ -3,7 +3,10 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
 import Features from './components/Features'
+import Testimonials from './components/Testimonials';
+import Pricing from './components/Pricing';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 function App() {
 
@@ -14,6 +17,8 @@ function App() {
       <Hero />
       <About />
       <Features />
+      <Testimonials />
+      <Pricing />
     </div>
   )
 }
