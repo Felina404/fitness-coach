@@ -23,7 +23,7 @@ function Header() {
 
         {/* Desktop */}
         <div className="hidden md:flex items-center gap-4 font-bold">
-             {['about', 'features', 'testimonials', 'pricing', 'faq', 'contact'].map((item) => (
+             {['about', 'features', 'testimonials', 'pricing', 'FAQ', 'contact'].map((item) => (
             <a
               key={item}
               href={`#${item}`}
@@ -59,7 +59,7 @@ function Header() {
         `}
       >
         <div className="flex flex-col bg-cards border-t border-textDark/20 rounded-b-md shadow-md">
-          {['about', 'features', 'testimonials', 'pricing', 'faq', 'contact'].map((item) => (
+          {['about', 'features', 'testimonials', 'pricing', 'FAQ', 'contact'].map((item) => (
             <a
               key={item}
               href={`#${item}`}
