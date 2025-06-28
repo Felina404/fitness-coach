@@ -5,6 +5,7 @@ import About from './components/About';
 import Features from './components/Features'
 import Testimonials from './components/Testimonials';
 import Pricing from './components/Pricing';
+import Faq from './components/Faq';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
@@ -19,6 +20,7 @@ function App() {
       <Features />
       <Testimonials />
       <Pricing />
+      <Faq />
     </div>
   )
 }
