@@ -7,6 +7,7 @@ import Testimonials from './components/Testimonials';
 import Pricing from './components/Pricing';
 import Faq from './components/Faq';
 import Cta from './components/Cta';
+import Footer from './components/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
@@ -23,6 +24,7 @@ function App() {
       <Pricing />
       <Faq />
       <Cta />
+      <Footer />
     </div>
   )
 }
