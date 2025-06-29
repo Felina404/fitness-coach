@@ -47,6 +47,8 @@ function Header() {
           <button
             onClick={() => setMenuOpen(!menuOpen)}
             className="text-textDark hover:text-hover active:text-hover focus:outline-none cursor-pointer"
+            aria-label={menuOpen ? 'Close menu' : 'Open menu'}
+            aria-expanded={menuOpen}
           >
             <i className={`fa-solid text-2xl ${menuOpen ? 'fa-xmark' : 'fa-bars'}`}></i>
           </button>

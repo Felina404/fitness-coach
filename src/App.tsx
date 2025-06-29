@@ -17,10 +17,10 @@ const GA_ID = import.meta.env.VITE_GA_MEASUREMENT_ID;
 function App() {
 
     useEffect(() => {
-    // if (GA_ID && import.meta.env.MODE === 'production') {
+    if (GA_ID && import.meta.env.MODE === 'production') {
       ReactGA.initialize(GA_ID);
       ReactGA.send({ hitType: 'pageview', page: window.location.pathname });
-    // }
+    }
   }, []);
 
   return (
