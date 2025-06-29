@@ -15,6 +15,11 @@ const data = [
     q: 'Do you provide a diet plan?',
     a: 'Yes, customized for you.',
   },
+
+     {
+    q: 'What is the cancellation policy?',
+    a: 'We do not provide a cancellation policy. You can cancel anytime.',
+  },
   
  
 ];

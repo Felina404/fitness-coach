@@ -30,7 +30,8 @@ function Header() {
               onClick={() => setMenuOpen(false)}
               className="text-textDark font-semibold text-center hover:text-hover hover:underline transition"
             >
-              {item.charAt(0).toUpperCase() + item.slice(1)}
+              {/* {item.charAt(0).toUpperCase() + item.slice(1)} */}
+              {item.toUpperCase()}
             </a>
           ))}
           {/* <a href="#about" className='text-textDark font-semibold hover:text-hover hover:underline transition'>About</a>
@@ -66,7 +67,8 @@ function Header() {
               onClick={() => setMenuOpen(false)}
               className="border-b border-textDark/20 last:border-b-0 px-6 py-3 text-textDark font-semibold text-center hover:text-hover hover:underline transition"
             >
-              {item.charAt(0).toUpperCase() + item.slice(1)}
+              {/* {item.charAt(0).toUpperCase() + item.slice(1)} */}
+              {item.toUpperCase()}
             </a>
           ))}
         </div>

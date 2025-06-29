@@ -8,7 +8,8 @@ function Footer() {
         <div className="space-x-4 ">
            <i className="fa-brands fa-facebook text-blue-600 text-2xl cursor-pointer"></i>
            <i className="fa-brands fa-instagram text-pink-600 text-2xl cursor-pointer"></i>
-           <i className="fa-brands fa-x-twitter text-2xl cursor-pointer"></i>
+           <i className="fa-brands fa-twitter text-blue-400 text-2xl cursor-pointer"></i>
+           {/* <i className="fa-brands fa-x-twitter text-2xl cursor-pointer"></i> */}
            
         </div>
         <p className="text-textLight"> © 2025. All rights reserved.</p>
