@@ -9,10 +9,19 @@ import Faq from './components/Faq';
 import Cta from './components/Cta';
 import Footer from './components/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import ReactGA from 'react-ga4';
+
+const GA_ID = import.meta.env.VITE_GA_MEASUREMENT_ID;
 
 
 function App() {
 
+    useEffect(() => {
+    // if (GA_ID && import.meta.env.MODE === 'production') {
+      ReactGA.initialize(GA_ID);
+      ReactGA.send({ hitType: 'pageview', page: window.location.pathname });
+    // }
+  }, []);
 
   return (
     <div className="bg-bg">
