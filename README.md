@@ -31,7 +31,7 @@ npm run preview
 
 ### Mobile Preview
 ![pricing_phone](https://github.com/user-attachments/assets/132eaf07-19e1-41bf-a9ed-8602b728c4e3)
-![header](https://github.com/user-attachments/assets/bdb23d63-fd50-448b-b495-d7c78b321cb8)
+![header](https://github.com/user-attachments/assets/ed6b3720-4f75-40d3-9b1b-0f3e145f8596)
 
 
 
