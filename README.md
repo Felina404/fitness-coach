@@ -15,16 +15,18 @@
 - TS
 
 ## Installation
-git clone https://github.com/Felina404/fitness-coach.git 
-cd fitness-coach
-npm install
-npm run dev
+- git clone https://github.com/Felina404/fitness-coach.git 
+- cd fitness-coach
+- npm install
+- npm run dev
 
-#build
-npm run build
-npm run preview
+### build
+- npm run build
+### Preview
+- npm run preview
 
-## Preview
+
+
 ### Header
 ![main_header](https://github.com/user-attachments/assets/efcd4b49-d4b0-4609-8369-5fab7d10fa3e)
 ![main_pc](https://github.com/user-attachments/assets/cf847fda-c116-4dc9-aabf-4fb830e0a5f2)
